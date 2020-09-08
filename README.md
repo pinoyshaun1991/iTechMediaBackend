@@ -15,9 +15,9 @@ Unit tests have been carried out within the codebase using both reflection and m
 
 ### How to test
 
-1. Using Postman or any other preferred API testing platform, locate the project by entering the POST method URL `http://localhost/iTechMediaTest/src/Script/` and send the request .
+1. Using Postman or any other preferred API testing platform, locate the project by entering the POST method URL `http://localhost/ad9dff74-d732-48f0-89c7-47ed9a7857a6/src/Script/` and send the request .
 2. A JSON encoded array will then be presented of the list of up to 20 recipes, reflecting that of the open full request recipes data here `http://18.130.116.85/`.
-3. You are able to add "from" and "to" query params to the request also which displays a specified range of recipes. For example `http://localhost/iTechMediaTest/src/Script/?from=0&to=2` returns a range of 2 recipes.  
+3. You are able to add "from" and "to" query params to the request also which displays a specified range of recipes. For example `http://localhost/ad9dff74-d732-48f0-89c7-47ed9a7857a6/src/Script/?from=0&to=2` returns a range of 2 recipes.  
 4. Unit tests have been implemented using PHP Unit, to execute please cd to the root directory and run the following command `./vendor/bin/phpunit tests`.
 
 *If no classes seem to load please try and run `composer dump-autoload`.  
